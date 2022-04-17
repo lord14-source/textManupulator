@@ -61,19 +61,20 @@ else{
 <div className='container my-3'>
 <Routes>
         
-<Route exact path='/about' element={<About/>} /> 
-<Route exact path='/' element={<Textform showAlert={showAlert} heading="Enter the text to analyse" mode={mode}/>} />
+  <Route exact path='/about' element={<About/>} /> 
+{<Route exact path='/' element={<Textform showAlert={showAlert} heading="Enter the text to analyse" mode={mode}/>} />}
   
  
-          
+{/*<Textform showAlert={showAlert} heading="Enter the text to analyse" mode={mode}/>*/}
           
         </Routes>
-       </div>
+        
+        </div>
        </Router>
 
-
-
 </>
+
+
 );
 }
 

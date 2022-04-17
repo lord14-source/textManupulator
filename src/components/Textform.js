@@ -58,11 +58,11 @@ props.showAlert("Converted to upper case","success");
   
 
 </div>
-<button className="btn btn-primary mx-2" onClick={handleUpClick}>ChangetoUpper</button>
-<button className="btn btn-primary mx-2" onClick={handleUpclick}> ChangetoLower</button>
-<button className="btn btn-primary mx-2" onClick={handleUpclear}> Clear</button>
-<button className="btn btn-primary mx-2" onClick={handleCopy}> Copy</button>
-<button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove extra space</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>ChangetoUpper</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleUpclick}> ChangetoLower</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleUpclear}> Clear</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleCopy}> Copy</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleExtraSpaces}>Remove extra space</button>
 </div>
 <div className="container my-3" style={{backgroundColor:props.mode==='dark'?'darkblue':'white',color:props.mode==='dark'?'white':'black'}} >
   <h2>Your text summary </h2>
